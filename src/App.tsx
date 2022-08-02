@@ -1,6 +1,7 @@
 import React from 'react';
-import Header from "./components/Header"
-import Taskbroad from './components/Taskbroad';
+import Header from "./applications/Header"
+import Taskbroad from './applications/Tasksboard';
+import "./App.scss"
 
 function App() {
   return (

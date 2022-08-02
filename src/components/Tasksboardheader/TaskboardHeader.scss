@@ -1,0 +1,32 @@
+.tasksboardheader {
+  padding: 15px 0 0 20px;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .tasksboardheaderleft {
+    height: 35px;
+    line-height: 35px;
+    .tasksboardheaderetitle {
+      font-size: 18px;
+      color: #777C82;
+    }
+  }
+  .tasksboardheaderright {
+    height: 35px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-right: 10px;
+    .MuiSvgIcon-root {
+      width: 24px;
+      height: 24px;
+      fill: #777C82;
+      cursor: pointer;
+    }
+  }
+}

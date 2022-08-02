@@ -1,0 +1,83 @@
+.header {
+  width: 100vw;
+  padding: 8px 20px 8px 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(169 174 183 / 50%) 0px 1px 2px 0px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  .headerlogo {
+    height: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .MuiSvgIcon-root {
+      padding: 8px;
+    }
+    .tasksboardlogo {
+      height: 36px;
+      width: 36px;
+    }
+    .headerlogotitle {
+      font-size: 20px;
+      color: rgb(95, 99, 104);
+    }
+  }
+  .headersearch {
+    height: 40px;
+    width: 500px;
+    background-color: #F1F3F4;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    .headersearchinput {
+      border: 1px solid transparent;
+      background-color: #F1F3F4;
+      height: 36px;
+      width: 210px;
+      font-size: 16px;
+      color: rgb(232, 232, 232);
+    }
+    .headersearchinput:focus {
+      outline: none;
+      background-color: rgb(255, 255, 255);
+    }
+    .MuiSvgIcon-root {
+      padding: 0 15px;
+    }
+  }
+  .headersearch:focus-within {
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(65, 69, 73, 0.3) 0px 1px 1px 0px, rgba(65, 69, 73, 0.15) 0px 1px 3px 1px;
+  }
+  .headersetting {
+    height: 40px;
+    width: 218px;
+    display: flex;
+    align-items: center;
+    .logo {
+      width: 182px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-right: 60px;
+    }
+    .avatar {
+      width: 36px;
+      height: 36px;
+      background-image: url("../../../public/avatar.jpg");
+      background-size: contain;
+    }
+  }
+  .MuiSvgIcon-root {
+    height: 24px;
+    width: 24px;
+    fill: rgb(89, 89, 89);
+    cursor: pointer;
+  }
+}
