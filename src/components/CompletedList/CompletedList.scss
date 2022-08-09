@@ -1,0 +1,31 @@
+.completedlist {
+  font-size: 14px;
+  color: #5F6368;
+  .ant-collapse>.ant-collapse-item.ant-collapse-no-arrow>.ant-collapse-header {
+    padding: 0px!important;
+  }
+  .completedheader {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 12px;
+    padding-left: 15px;
+    .completedheadertitle {
+      flex-grow: 1;
+    }
+    .MuiSvgIcon-root {
+      height: 24px;
+      width: 24px;
+      transition: transform 0.3s ease-in-out;
+      transform: rotate(180deg)!important;
+      transform-origin: center;
+      fill: rgb(89,89,89);
+    }
+  }
+  .ant-collapse-item-active .MuiSvgIcon-root {
+    transform: rotate(0deg)!important;
+    height: 24px;
+    width: 24px;
+    transform-origin: center;
+  }
+}

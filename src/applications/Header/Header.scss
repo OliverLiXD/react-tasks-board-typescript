@@ -38,14 +38,19 @@
     .headersearchinput {
       border: 1px solid transparent;
       background-color: #F1F3F4;
-      height: 36px;
+      height: 34px;
       width: 210px;
       font-size: 16px;
-      color: rgb(232, 232, 232);
+      color: #F1F3F4;
     }
     .headersearchinput:focus {
       outline: none;
       background-color: rgb(255, 255, 255);
+    }
+    .headersearchinput:focus::placeholder {
+      opacity: 0;
+      // visibility: hidden;
+      // display: none;
     }
     .MuiSvgIcon-root {
       padding: 0 15px;
