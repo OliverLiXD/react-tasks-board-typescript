@@ -13,7 +13,7 @@ function CompletedHeader() {
       <div className="completedheadertitle">
         Completedheadertitle
       </div>
-      <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true" rotate="0">
+      <svg className="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true" rotate="0">
         <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
       </svg>
     </div>
